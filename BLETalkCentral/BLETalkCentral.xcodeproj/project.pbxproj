@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33079167F3B86411AD6E3DC0 /* BLETalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330794A4772C9CA6891A87D6 /* BLETalkViewController.m */; };
+		3307920E518BA29C6B95ED11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3307941750ADD8CC111FE533 /* Foundation.framework */; };
+		330792A8258CDBCB6E7FABE5 /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 33079DACB06DF7E73D27775E /* AppContext.m */; };
+		330794895D2D8F5FA769FC05 /* BLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 330790B25116F14874A0D90F /* BLEDevice.m */; };
+		330796872919248804323D78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330795A3AD3566F15A5309AF /* Images.xcassets */; };
+		33079762EF9ACD982F0A3404 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33079DE2BC00F06A5C55B990 /* InfoPlist.strings */; };
+		330797AED252BA08F7F7ABFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3307941750ADD8CC111FE533 /* Foundation.framework */; };
+		3307987F2BCBE9126D2DBFEC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330797284625CECA6C80ED1B /* Main_iPad.storyboard */; };
+		330798EB8D3CE2B7BDCFCA60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33079E11B8972DFDC4E51F45 /* main.m */; };
+		330799068A5EBA835601C661 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3307911952ABB53D2B3D765E /* CoreGraphics.framework */; };
+		33079974BAA2811D0C743EB5 /* BLETalkCentralService+Bluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 330793603F4EECBCB734C1F0 /* BLETalkCentralService+Bluetooth.m */; };
+		33079A39C39CE2A0F03876BD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33079B4923B21417A0BF0A5E /* Main_iPhone.storyboard */; };
+		33079ACCB899BF189760F144 /* BLETalkCentralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33079BFCF2DBBD5A9333A99B /* BLETalkCentralTests.m */; };
+		33079AF1EEAF1F0F4602BE61 /* BLETalkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3307917793AF63767654E783 /* BLETalkAppDelegate.m */; };
+		33079B8A86653EF17374F950 /* BLETalkCentralService.m in Sources */ = {isa = PBXBuildFile; fileRef = 33079EB5C4266FC52F10D12D /* BLETalkCentralService.m */; };
+		33079BDF0371D74767F9CDAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3307927DFCC62BA9B602AB31 /* UIKit.framework */; };
+		33079C3F73BDC16A3A67CF2C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33079753E4D4073978BB5E90 /* XCTest.framework */; };
+		33079D3B47337D01BF6EBB50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33079E4B4D969CD2302C6C39 /* InfoPlist.strings */; };
+		33079DE3B06B8B31E1157C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3307927DFCC62BA9B602AB31 /* UIKit.framework */; };
+		33079ECFDB020B9868475C2D /* BLETalkViewController+Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 330795E95336D973DF972490 /* BLETalkViewController+Table.m */; };
+		33079F00F1F2CF2AB128E46B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3307997D733C84269EB1C437 /* CoreBluetooth.framework */; };
+		DB5CFB64194A1110007569A8 /* DeviceTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5CFB63194A1110007569A8 /* DeviceTableCell.m */; };
+		DB5CFB66194A11EF007569A8 /* DeviceTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5CFB65194A11EF007569A8 /* DeviceTableCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330796C85FC3E804416A95BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3307985779F397D9851FFEE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33079FA0B6EC1124D1CC7FC0;
+			remoteInfo = BLETalkCentral;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33079064D8F5D7ED98A4415F /* BLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevice.h; sourceTree = "<group>"; };
+		3307909F78A1138B613757E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		330790B25116F14874A0D90F /* BLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevice.m; sourceTree = "<group>"; };
+		3307911952ABB53D2B3D765E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3307917793AF63767654E783 /* BLETalkAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLETalkAppDelegate.m; sourceTree = "<group>"; };
+		3307927DFCC62BA9B602AB31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		330793143474FB71C4996444 /* BLETalkCentralService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLETalkCentralService.h; sourceTree = "<group>"; };
+		3307932F3A928AE1DE656C2B /* AppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
+		330793603F4EECBCB734C1F0 /* BLETalkCentralService+Bluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLETalkCentralService+Bluetooth.m"; sourceTree = "<group>"; };
+		3307941750ADD8CC111FE533 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33079488D37C71D6CB9F0344 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		330794A4772C9CA6891A87D6 /* BLETalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLETalkViewController.m; sourceTree = "<group>"; };
+		330795A3AD3566F15A5309AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		330795BBCDED9D4614175310 /* BLETalkCentralTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BLETalkCentralTests-Info.plist"; sourceTree = "<group>"; };
+		330795E95336D973DF972490 /* BLETalkViewController+Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLETalkViewController+Table.m"; sourceTree = "<group>"; };
+		33079753E4D4073978BB5E90 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		330798D5E2925340C1D14786 /* BLETalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLETalkViewController.h; sourceTree = "<group>"; };
+		3307997D733C84269EB1C437 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		330799B287CFA825ED4DBA51 /* BLETalkCentral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLETalkCentral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		330799D727C8938A7B362DF3 /* BLETalkAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLETalkAppDelegate.h; sourceTree = "<group>"; };
+		33079BFCF2DBBD5A9333A99B /* BLETalkCentralTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLETalkCentralTests.m; sourceTree = "<group>"; };
+		33079DACB06DF7E73D27775E /* AppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
+		33079DF2D25E3B9F7CB1BCEF /* BLETalkCentral-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BLETalkCentral-Info.plist"; sourceTree = "<group>"; };
+		33079E11B8972DFDC4E51F45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33079E610EB2659D3F9C048C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		33079E7090A5BD1AD98A5986 /* BLETalkCentral-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLETalkCentral-Prefix.pch"; sourceTree = "<group>"; };
+		33079EB5C4266FC52F10D12D /* BLETalkCentralService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLETalkCentralService.m; sourceTree = "<group>"; };
+		33079F41B46F653CC8AF5DDB /* BLETalkCentralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLETalkCentralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33079FD0FFC3E30791D16B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DB5CFB62194A1110007569A8 /* DeviceTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableCell.h; sourceTree = "<group>"; };
+		DB5CFB63194A1110007569A8 /* DeviceTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableCell.m; sourceTree = "<group>"; };
+		DB5CFB65194A11EF007569A8 /* DeviceTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceTableCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330797885248550E97DDE973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33079C3F73BDC16A3A67CF2C /* XCTest.framework in Frameworks */,
+				330797AED252BA08F7F7ABFC /* Foundation.framework in Frameworks */,
+				33079DE3B06B8B31E1157C6B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33079979B4EE29CAD72DB2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3307920E518BA29C6B95ED11 /* Foundation.framework in Frameworks */,
+				330799068A5EBA835601C661 /* CoreGraphics.framework in Frameworks */,
+				33079BDF0371D74767F9CDAA /* UIKit.framework in Frameworks */,
+				33079F00F1F2CF2AB128E46B /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3307903E51F5D3927BD9D773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3307941750ADD8CC111FE533 /* Foundation.framework */,
+				3307911952ABB53D2B3D765E /* CoreGraphics.framework */,
+				3307927DFCC62BA9B602AB31 /* UIKit.framework */,
+				33079753E4D4073978BB5E90 /* XCTest.framework */,
+				3307997D733C84269EB1C437 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33079089113F63D88EBFC1AB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				33079EB5C4266FC52F10D12D /* BLETalkCentralService.m */,
+				330793143474FB71C4996444 /* BLETalkCentralService.h */,
+				330793603F4EECBCB734C1F0 /* BLETalkCentralService+Bluetooth.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3307914B6890945A300B20C6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				330794A4772C9CA6891A87D6 /* BLETalkViewController.m */,
+				330798D5E2925340C1D14786 /* BLETalkViewController.h */,
+				330795E95336D973DF972490 /* BLETalkViewController+Table.m */,
+				DB5CFB62194A1110007569A8 /* DeviceTableCell.h */,
+				DB5CFB63194A1110007569A8 /* DeviceTableCell.m */,
+				DB5CFB65194A11EF007569A8 /* DeviceTableCell.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		33079462297C3F2291CA63ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				330795BBCDED9D4614175310 /* BLETalkCentralTests-Info.plist */,
+				33079E4B4D969CD2302C6C39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3307962E2DE56662EEEF6B06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33079064D8F5D7ED98A4415F /* BLEDevice.h */,
+				330790B25116F14874A0D90F /* BLEDevice.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		330796DF8339BC355EF4EBE6 /* BLETalkCentral */ = {
+			isa = PBXGroup;
+			children = (
+				33079A90DB25153675A94907 /* Supporting Files */,
+				330795A3AD3566F15A5309AF /* Images.xcassets */,
+				33079B4923B21417A0BF0A5E /* Main_iPhone.storyboard */,
+				330797284625CECA6C80ED1B /* Main_iPad.storyboard */,
+				330798091C509A76004380C9 /* Classes */,
+			);
+			path = BLETalkCentral;
+			sourceTree = "<group>";
+		};
+		330798091C509A76004380C9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3307917793AF63767654E783 /* BLETalkAppDelegate.m */,
+				330799D727C8938A7B362DF3 /* BLETalkAppDelegate.h */,
+				33079DACB06DF7E73D27775E /* AppContext.m */,
+				3307932F3A928AE1DE656C2B /* AppContext.h */,
+				3307914B6890945A300B20C6 /* UI */,
+				33079089113F63D88EBFC1AB /* Service */,
+				3307962E2DE56662EEEF6B06 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		33079A251B47B209D06CEA0B /* BLETalkCentralTests */ = {
+			isa = PBXGroup;
+			children = (
+				33079462297C3F2291CA63ED /* Supporting Files */,
+				33079BFCF2DBBD5A9333A99B /* BLETalkCentralTests.m */,
+			);
+			path = BLETalkCentralTests;
+			sourceTree = "<group>";
+		};
+		33079A6E523EBF350DFFFB46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330799B287CFA825ED4DBA51 /* BLETalkCentral.app */,
+				33079F41B46F653CC8AF5DDB /* BLETalkCentralTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33079A90DB25153675A94907 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33079DF2D25E3B9F7CB1BCEF /* BLETalkCentral-Info.plist */,
+				33079DE2BC00F06A5C55B990 /* InfoPlist.strings */,
+				33079E11B8972DFDC4E51F45 /* main.m */,
+				33079E7090A5BD1AD98A5986 /* BLETalkCentral-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33079C6CAD1DEE744F141FAC = {
+			isa = PBXGroup;
+			children = (
+				33079A6E523EBF350DFFFB46 /* Products */,
+				3307903E51F5D3927BD9D773 /* Frameworks */,
+				330796DF8339BC355EF4EBE6 /* BLETalkCentral */,
+				33079A251B47B209D06CEA0B /* BLETalkCentralTests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330791004051300BEB7C7A95 /* BLETalkCentralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33079FF1D3F0C6C28C2A59C0 /* Build configuration list for PBXNativeTarget "BLETalkCentralTests" */;
+			buildPhases = (
+				33079807895EBAA3638E3F31 /* Sources */,
+				330797885248550E97DDE973 /* Frameworks */,
+				3307905A0800370D22333367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33079949F26025D80E9F8D91 /* PBXTargetDependency */,
+			);
+			name = BLETalkCentralTests;
+			productName = BLETalkCentralTests;
+			productReference = 33079F41B46F653CC8AF5DDB /* BLETalkCentralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33079FA0B6EC1124D1CC7FC0 /* BLETalkCentral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3307961C5CECE725732D0EDB /* Build configuration list for PBXNativeTarget "BLETalkCentral" */;
+			buildPhases = (
+				330790E34B0F4BC3FF173F67 /* Sources */,
+				33079979B4EE29CAD72DB2F2 /* Frameworks */,
+				33079F71349620208B7031AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLETalkCentral;
+			productName = BLETalkCentral;
+			productReference = 330799B287CFA825ED4DBA51 /* BLETalkCentral.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3307985779F397D9851FFEE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Cocoaheads;
+			};
+			buildConfigurationList = 33079E1D48ECC2BE36993DA0 /* Build configuration list for PBXProject "BLETalkCentral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33079C6CAD1DEE744F141FAC;
+			productRefGroup = 33079A6E523EBF350DFFFB46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33079FA0B6EC1124D1CC7FC0 /* BLETalkCentral */,
+				330791004051300BEB7C7A95 /* BLETalkCentralTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3307905A0800370D22333367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33079D3B47337D01BF6EBB50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33079F71349620208B7031AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33079762EF9ACD982F0A3404 /* InfoPlist.strings in Resources */,
+				330796872919248804323D78 /* Images.xcassets in Resources */,
+				DB5CFB66194A11EF007569A8 /* DeviceTableCell.xib in Resources */,
+				33079A39C39CE2A0F03876BD /* Main_iPhone.storyboard in Resources */,
+				3307987F2BCBE9126D2DBFEC /* Main_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330790E34B0F4BC3FF173F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330798EB8D3CE2B7BDCFCA60 /* main.m in Sources */,
+				33079AF1EEAF1F0F4602BE61 /* BLETalkAppDelegate.m in Sources */,
+				330792A8258CDBCB6E7FABE5 /* AppContext.m in Sources */,
+				33079167F3B86411AD6E3DC0 /* BLETalkViewController.m in Sources */,
+				33079B8A86653EF17374F950 /* BLETalkCentralService.m in Sources */,
+				33079974BAA2811D0C743EB5 /* BLETalkCentralService+Bluetooth.m in Sources */,
+				330794895D2D8F5FA769FC05 /* BLEDevice.m in Sources */,
+				DB5CFB64194A1110007569A8 /* DeviceTableCell.m in Sources */,
+				33079ECFDB020B9868475C2D /* BLETalkViewController+Table.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33079807895EBAA3638E3F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33079ACCB899BF189760F144 /* BLETalkCentralTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33079949F26025D80E9F8D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33079FA0B6EC1124D1CC7FC0 /* BLETalkCentral */;
+			targetProxy = 330796C85FC3E804416A95BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		330797284625CECA6C80ED1B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33079E610EB2659D3F9C048C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		33079B4923B21417A0BF0A5E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33079FD0FFC3E30791D16B25 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		33079DE2BC00F06A5C55B990 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3307909F78A1138B613757E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33079E4B4D969CD2302C6C39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33079488D37C71D6CB9F0344 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3307920CA662C6B2EE95CFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: DMITRI PITIRIMOV (277V78967C)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLETalkCentral/BLETalkCentral-Prefix.pch";
+				INFOPLIST_FILE = "BLETalkCentral/BLETalkCentral-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "459F77E2-EF7A-4789-8603-A7CBD997CA54";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		330792CD8F3A514AD32A8A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3307932AF112F9D783643B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: DMITRI PITIRIMOV (277V78967C)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLETalkCentral/BLETalkCentral-Prefix.pch";
+				INFOPLIST_FILE = "BLETalkCentral/BLETalkCentral-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "459F77E2-EF7A-4789-8603-A7CBD997CA54";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3307983923C6D1EB5C24CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLETalkCentral/BLETalkCentral-Prefix.pch";
+				INFOPLIST_FILE = "BLETalkCentralTests/BLETalkCentralTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		33079A2D197F53282B085362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33079B77785E5BC43E013ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLETalkCentral/BLETalkCentral-Prefix.pch";
+				INFOPLIST_FILE = "BLETalkCentralTests/BLETalkCentralTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3307961C5CECE725732D0EDB /* Build configuration list for PBXNativeTarget "BLETalkCentral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3307920CA662C6B2EE95CFC5 /* Debug */,
+				3307932AF112F9D783643B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33079E1D48ECC2BE36993DA0 /* Build configuration list for PBXProject "BLETalkCentral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33079A2D197F53282B085362 /* Debug */,
+				330792CD8F3A514AD32A8A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33079FF1D3F0C6C28C2A59C0 /* Build configuration list for PBXNativeTarget "BLETalkCentralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33079B77785E5BC43E013ACE /* Debug */,
+				3307983923C6D1EB5C24CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3307985779F397D9851FFEE2 /* Project object */;
+}

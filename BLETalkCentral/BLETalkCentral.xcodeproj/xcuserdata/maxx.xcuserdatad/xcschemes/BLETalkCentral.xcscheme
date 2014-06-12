@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "33079FA0B6EC1124D1CC7FC0"
+               BuildableName = "BLETalkCentral.app"
+               BlueprintName = "BLETalkCentral"
+               ReferencedContainer = "container:BLETalkCentral.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "33079FA0B6EC1124D1CC7FC0"
+            BuildableName = "BLETalkCentral.app"
+            BlueprintName = "BLETalkCentral"
+            ReferencedContainer = "container:BLETalkCentral.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
